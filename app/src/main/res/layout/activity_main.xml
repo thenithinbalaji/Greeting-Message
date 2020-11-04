@@ -1,0 +1,87 @@
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcolor"
+    android:padding="12dp">
+
+    <!-- Enter Name Field -->
+    <EditText
+        android:id="@+id/enter_name"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="@string/name"
+        android:textSize="60sp"
+        android:textColor="#ffffff"
+        android:shadowColor="#000000"
+        android:shadowDx="5.0"
+        android:shadowDy="5.0"
+        android:shadowRadius="5.0"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:background="@drawable/button"
+        android:cursorVisible="false"
+
+         />
+
+    <!-- Message/Greeting field -->
+    <EditText
+        android:id="@+id/gretting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/enter_name"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:text="@string/message"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:shadowColor="#000000"
+        android:shadowDx="5.0"
+        android:shadowDy="5.0"
+        android:shadowRadius="5.0"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:background="@drawable/transparentbutton"
+        android:cursorVisible="false"
+        />
+
+    <!-- Hello -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gretting"
+        android:layout_centerHorizontal="true"
+        android:padding="2dp"
+        android:shadowColor="#000000"
+        android:shadowDx="15.0"
+        android:shadowDy="15.0"
+        android:shadowRadius="15.0"
+        android:text="@string/hello"
+        android:textColor="#ffffff"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        />
+
+    <!-- Bottom tip -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tip"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+
+</RelativeLayout>

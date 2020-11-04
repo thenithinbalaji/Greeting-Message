@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Greeting</string>
+    <string name="tip">Press the message and customize it\nTake Screenshot and Share This!\nMade by Nithin Balaji</string>
+    <string name="hello">HELLO!</string>
+    <string name="message">Happy Birthday</string>
+    <string name="name">Nithin!</string>
+</resources>
