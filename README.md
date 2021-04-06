@@ -5,4 +5,4 @@ The app provides a customizable text box where you can enter your custom message
 This android app was made completely in Java
 
 # Supported Android Versions
-This is app is only supported by Android 3.2.6 and later versions
+This app is only supported by Android 3.2.6 and later versions
