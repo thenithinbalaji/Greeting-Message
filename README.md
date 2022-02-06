@@ -8,6 +8,6 @@ After entering the text message, the app properly intends the message and sets a
 <img alt = "app snippet" src = "/snippets/all%20together.png">
 </p>
 
-## Note
-Download the app from [here](https://github.com/thenithinbalaji/Greeting-Message/blob/master/APK)     
+## Install
+Download the app from [here](https://github.com/thenithinbalaji/Greeting-Message/raw/master/APK/Greeting%20Messenger.apk)     
 This app is only supported by Android 3.2.6 and later versions
