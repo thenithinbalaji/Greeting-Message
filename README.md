@@ -9,5 +9,5 @@ After entering the text message, the app properly intends the message and sets a
 </p>
 
 ## Install
-[Click here to install](https://github.com/thenithinbalaji/Greeting-Message/raw/master/APK/Greeting%20Messenger.apk)     
+[Click here to install Greeting Message](https://github.com/thenithinbalaji/Greeting-Message/raw/master/APK/Greeting%20Messenger.apk)     
 This app is only supported by Android 3.2.6 and later versions
